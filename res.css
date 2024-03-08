@@ -1,0 +1,312 @@
+[class*=col-]{
+    width:100%;
+    float:left;
+}
+@media screen and (min-width:576px) {
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+
+
+
+
+}
+
+
+
+/* 768 px */
+
+@media screen and (min-width:768px) {
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }  
+       
+/*services  */
+
+
+.card1{
+padding:10px;
+margin:20px 0;
+}
+
+            .services h2{
+                margin:0;
+                padding:20px 30px;
+                }
+                .services p{
+                padding:0 20px;
+                }
+                
+/* contact============== */
+
+.in1{
+text-align: right;
+padding-right:15px;
+}
+.in1 input{
+width:69%;
+margin-bottom:20px;
+background: #273a71;
+border:none;
+padding:10px;
+color:white;
+
+}
+.in2{
+    text-align: left;
+    padding-left:15px;
+}
+.in2 input{
+    width:69%;
+    margin-bottom:20px;
+    background: #273a71;
+border:none;
+padding:10px;
+color:white;
+text-align: left;
+}
+
+.in3 textarea{
+    width:70%;
+    background: #273a71;
+border:none;
+padding:10px;
+color:white;
+}
+
+
+
+
+
+}
+
+
+/* 992 px */
+
+@media screen and (min-width:992px) {
+    .col-lg-1 {
+        width: 8.33%;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+/* sticky */
+    .sticky{
+        position: fixed;
+        top:0;
+        left:0;
+        width:100%;
+        background: #87509cc5;
+        z-index: 5;
+    }
+
+    .sticky .navi {
+        overflow: hidden;
+        padding: 20px 50px 20px 50px;
+    }
+
+
+    .menu-part ul li{
+        float: left;
+    }
+    .header{
+        position: relative;
+    }
+    
+     .menu-part ul{
+  float:right;
+     margin:0;
+ 
+     
+     }
+    .banner-content{
+        position:absolute;
+        top:60%;
+        left:50%;
+        text-align: center;
+        transform:translate(-50%,-50%)
+    }
+    .banner-content h1{
+        font-size:42px ;
+        font-weight: 400;
+        }
+    .banner-content button{
+        margin-top:30px;
+        background: #eb7d4b;
+        border:none;
+        border-radius: 5px;
+        padding:30px 80px;
+        color:white;
+        
+        
+        }
+/* review */
+
+.people{
+    background: #d74680;
+    overflow: hidden;
+    color:white;
+   
+    padding:110px 0;
+    }
+    .test{
+    
+    }
+    .review-area{
+        text-align: left;
+        margin-top:70px;
+    }
+    .review{
+    margin-bottom:0px;
+display: flex;
+flex-flow: row;
+    }
+
+    .review-text{
+   
+    padding: 0 50px;
+    }
+    .review:nth-child(1),
+    .review:nth-child(2){
+        margin-bottom:60px;
+    }
+    
+    .banner-content h1{
+       
+        display: block;
+    
+        }
+        
+    
+}
